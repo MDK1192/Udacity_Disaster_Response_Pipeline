@@ -7,15 +7,14 @@ with data extraction via an ETL-Pipeline, going over Model creation using a comb
 
 # Installations
 This project was initialized in a Jupyter Notebook using Python 3. Dependencies are implemented within the Notebook itself. 
-Further Notebook-external dependencies are non existant and hence will not be covered.
+A further Notebook-external dependency would be Flask, if you want to know more about Flask, please follow the attached url. [Flask](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/)
 
 # File Descriptions
-Dataset.rar: compressed folder with the Dataset used for this analysis in .csv format, as well as a description of the questions behind the given columns.
-
-Udacity_Create_a_Blogpost.ipynb: Jupyter Noptebook in Python, that was used for analysing the dataset using the process of CRISP-DM.
+ETL-Pipeline Prepartion.ipynb: Jupyter Notebook with code for the ETL-Pipeline of this project.
+ML-ipeline Prepartion.ipynb: Jupyter Notebook with code for the ML-pipeline of this project.
+disaster-response-pipeline-project.zip: Flask app bundle with modularized Version of Code used in both Jupyter Notebooks.
 
 # How to interact with the repositories content
-
 For further working on the Jupyter Notebook, you can either download it and work locally with it, or use the Python Notebook from within the online version of [Jupyter](https://jupyter.org/try).
 
 ## Author
