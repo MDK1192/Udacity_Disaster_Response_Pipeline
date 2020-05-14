@@ -9,6 +9,22 @@ with data extraction via an ETL-Pipeline, going over Model creation using a comb
 This project was initialized in a Jupyter Notebook using Python 3. Dependencies are implemented within the Notebook itself. 
 A further Notebook-external dependency would be Flask, if you want to know more about Flask, please follow the attached url. [Flask](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/)
 
+# Instructions for running the Flask App:
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+    
+Run `python app/run.py`
+
+3. Go to http://0.0.0.0:3001/
+
+
 # File Descriptions
 ETL-Pipeline Prepartion.ipynb: Jupyter Notebook with code for the ETL-Pipeline of this project.
 ML-ipeline Prepartion.ipynb: Jupyter Notebook with code for the ML-pipeline of this project.
